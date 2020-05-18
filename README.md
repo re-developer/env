@@ -1,6 +1,6 @@
 # 환경 세팅
 
-## bash
+## .bash
 bashrc
 ```
 
@@ -22,18 +22,17 @@ fi
 
 # ls color 
 export LS_COLORS='di=1;5;92:fi=37:ln=36:pi=5:so=5:bd=5:cd=5:or=31:mi=93:ex=35:*.rpm=90'
-source <(kubectl completion bash)
 
 ```
 
-### .exrc
+## .exrc
 ```
 set nu
 set tabstop=2
 set shiftwidth=2
 set ai
 ```
-### .vimrc 
+## .vimrc 
 
 ```
 set history=256
